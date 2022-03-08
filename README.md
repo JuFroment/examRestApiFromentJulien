@@ -1,8 +1,8 @@
 # examRestApiFromentJulien
 
-#################################
+####################################################
 # SI LE PATCH NE FONCTIONNE PAS #
-#################################
+####################################################
 
 Mon PATCH ne fonctionnait pas et il me sortait cette erreur 
 
@@ -12,9 +12,9 @@ Pour le corriger j'ai simplement décoché dans le header de la requête le "Con
     
   
 
-######################
+#################################
 # Partie Théorique : #
-######################
+#################################
 
 1) Donner 5 verbes HTTP et expliquer leurs utilité
 
