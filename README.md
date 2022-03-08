@@ -1,6 +1,20 @@
 # examRestApiFromentJulien
 
-Partie Théorique :
+#################################
+# SI LE PATCH NE FONCTIONNE PAS #
+#################################
+
+Mon PATCH ne fonctionnait pas et il me sortait cette erreur 
+
+    "hydra:description": "The content-type \"application/json\" is not supported. Supported MIME types are \"multipart/form-data\", \"application/merge-patch+json\", \"application/vnd.api+json\"." avec un status 415 : Unsupported Media Type
+    
+Pour le corriger j'ai simplement décoché dans le header de la requête le "Content-Type" : "application/json" et j'en ai recréé un "Content-Type" : "application/merge-patch+json" et là ça a fonctionné.
+    
+  
+
+######################
+# Partie Théorique : #
+######################
 
 1) Donner 5 verbes HTTP et expliquer leurs utilité
 
